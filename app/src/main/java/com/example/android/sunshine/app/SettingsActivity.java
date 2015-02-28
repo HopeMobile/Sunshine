@@ -64,8 +64,7 @@ public class SettingsActivity extends PreferenceActivity
         } else {
 // For other preferences, set the summary to the value's simple string representation.
             preference.getSummary();
-            preference.isPersistent();
-            preference.setSummary("");
+            preference.setSummary("94043");
         }
         return true;
     }
